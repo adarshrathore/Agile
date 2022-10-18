@@ -1,0 +1,15 @@
+.carouselCard .leftSection{
+ background-image: url("../../../assets/images/vector1.png");
+ background-position:right;
+ background-size: cover;
+ background-repeat: no-repeat;
+ flex:  1 1 0%;
+ font-size:3rem;
+}
+.carouselCard .rightSection{
+    flex:  1 1 0%;
+   }
+   .carouselCard .rightSection img{
+    width:100%;
+    margin-left:auto;
+}
