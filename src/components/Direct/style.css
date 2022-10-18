@@ -1,0 +1,124 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000428;
+}
+
+a, button {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    align-items:initial;
+}
+
+li{
+    font-family: "Poppins";
+    font-weight:lighter;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    float: right;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+.button {
+    background-color: #ED318B;
+    
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+  body{
+    background-color:#000428;
+    height: 100vh;
+    display: grid;
+    
+  }
+  div{
+    place-items: center center;
+  }
+  .cards{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    padding: 20px;
+    grid-gap:40px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .details{
+    max-width: 250px;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+  }
+.details h3,p{
+    background-color: #ffffff;
+    
+}
+  .card1{
+    
+    
+    box-shadow:0 0 30px rgba(0,0,0,0.18);
+
+  }
+
+  .container{
+    border: solid #ED318B 2px;
+    border-radius: 20px;
+    background-color:#ffffff;
+    position: relative;
+    clip-path: polygon(0 0,100% 0,100% 100%, 0 100%);
+    border-color: #ED318B;
+    border-width: 10px;
+  }
+
+  img{
+    
+    width: 250px;
+    height: 300px;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  

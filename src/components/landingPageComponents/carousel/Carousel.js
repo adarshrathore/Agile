@@ -21,6 +21,10 @@ const Carousel = () => {
             <SplideSlide>
                 <Card/>
             </SplideSlide>
+
+            <SplideSlide>
+                im
+            </SplideSlide>
            
         </Splide>
     )
