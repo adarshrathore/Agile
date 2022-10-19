@@ -4,6 +4,9 @@
     margin: 10px 0;
 }
 .secondaryHeroHead{
-    
+    color:rgba(255, 255, 255, 0.792);
     font-size:2rem;
+}
+.heroSection{
+    min-height:90vh;
 }

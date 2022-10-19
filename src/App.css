@@ -12,16 +12,26 @@ body{
   margin:auto;
 }
 @media(max-width:1200px){
+  :root{
+    font-size: 14px;
+  }
   .container{
+    
     max-width:1140px;
   }
 }
 @media(max-width:992px){
+  :root{
+    font-size: 12px;
+  }
   .container{
     max-width:960px;
   }
 }
 @media(max-width:768px){
+  :root{
+    font-size: 10px;
+  }
   .container{
     max-width:720px;
   }
@@ -46,6 +56,9 @@ body{
   letter-spacing:5px;
   
 }
+.text-center{
+  text-align: center;
+}
 .h-screen{
   height: 100vh;
 }
@@ -60,4 +73,16 @@ body{
 }
 .flex-col{
   flex-direction: column;
+}
+.mt-5{
+ margin-top: 50px;
+}
+.my-5{
+  margin: 50px 0px;
+ }
+ .my-2{
+  margin: 20px 0px;
+ }
+.gap-2{
+  gap: 10px;
 }

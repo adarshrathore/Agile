@@ -1,0 +1,15 @@
+.services {
+    margin:30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* grid-template-columns: auto auto auto; */
+    gap:30px;
+}
+/* .services{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */

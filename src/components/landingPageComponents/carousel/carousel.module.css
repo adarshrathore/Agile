@@ -1,3 +1,9 @@
+@media(max-width:700px){
+
+.carouselCard {
+flex-direction: column;
+}
+}
 .carouselCard .leftSection{
  background-image: url("../../../assets/images/vector1.png");
  background-position:right;
@@ -5,6 +11,7 @@
  background-repeat: no-repeat;
  flex:  1 1 0%;
  font-size:3rem;
+ padding: 20px;
 }
 .carouselCard .rightSection{
     flex:  1 1 0%;
