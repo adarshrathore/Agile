@@ -1,0 +1,93 @@
+/* Contact page CSS */
+*{
+  color: white;
+}
+#form-submit{
+    height: 6vh;
+    width: 13vh;
+  }
+  .container-main{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .items-1{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+  }
+  
+  .items-2{
+    border-left: 1.5px solid white;
+    padding: 0px 25px;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+  
+  }
+  .form-item{
+    margin: 10px 0px;
+  }
+  .form-item input{
+    margin-right: 10px;
+    padding: 0px 10px;
+    width: 19.5rem;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+  }
+  .form-item textarea{
+    padding: 5px 10px;
+    width: 49.5vw;
+    border-radius: 5px;
+  }
+  #form-submit{
+    background-color: rgb(0, 174, 255);
+    border-radius: 5px;
+  }
+  i{
+    margin-right: 10px;
+  }
+  .follow i{
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  @media only screen and (max-width: 700px){
+    .items-2{
+        border: none;
+        flex-direction: row;
+        width: auto;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px;
+        height: auto;
+        margin-top: 2rem;
+    }
+    .form-item-2{
+      margin: 0px 10px;
+    }
+    .form-item-2 h3{
+     font-size: 1rem;
+    }
+    .form-item-2 p{
+      font-size: 0.7rem;
+    }
+  }
+  @media only screen and (max-width:500px){
+    .form-item input{
+      margin-bottom: 8px;
+    }
+    .items-2{
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .form-item textarea{
+      width: 19.5rem;
+      height: 6rem;
+    }
+    
+  }
